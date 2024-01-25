@@ -1,5 +1,8 @@
 body {
-  background-color: #0a0a23;
+  background-image: url(https://images2.alphacoders.com/889/889641.jpg);
+  background-size: cover;
+  margin-top: 10%;
+  height: 100vh;
 }
 
 #text {
@@ -11,20 +14,21 @@ body {
 #game {
   max-width: 500px;
   max-height: 400px;
-  background-color: #ffffff;
+  background-color: #14141469;
+  border-radius: 5px;
   color: #ffffff;
   margin: 30px auto 0px;
   padding: 10px;
 }
 
 #controls, #stats {
-  border: 1px solid #0a0a23;
-  color: #0a0a23;
+  border: 1px solid #8e8e91;
+  color: #ffffff;
   padding: 5px;
 }
 
 #monsterStats {
-  border: 1px solid #0a0a23;
+  border: 1px solid #c70d0d;
   padding: 5px;
   color: #ffff;
   background-color: #c70d0d;
